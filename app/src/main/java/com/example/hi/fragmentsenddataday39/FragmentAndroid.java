@@ -38,7 +38,7 @@ public class FragmentAndroid extends Fragment{
 
         return view;
     }
-
+        //Chuyen du lieu tu Fragment qua cho MainActivity
     @Override
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         btnAndroid.setOnClickListener(new View.OnClickListener() {

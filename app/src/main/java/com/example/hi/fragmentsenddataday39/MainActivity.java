@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity implements Listen{
 //            }
 //        });
     }
-
+        //MainActivity nhan du lieu tu Fragment
     public void ReceiveData(String chuoi, int so){
         Log.d("BBB",chuoi+so);
     }
