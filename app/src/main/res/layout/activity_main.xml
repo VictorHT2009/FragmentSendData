@@ -7,6 +7,21 @@
     tools:context=".MainActivity"
     android:id="@+id/relativeMain">
 
+    <Button
+        android:layout_centerHorizontal="true"
+        android:text="Send Data to Fragment"
+        android:id="@+id/buttonMain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <fragment
+        android:name="com.example.hi.fragmentsenddataday39.FragmentAndroid"
+        android:id="@+id/fragmentAndroid"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/buttonMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
 
 
 </RelativeLayout>
